@@ -1,7 +1,8 @@
 body {
 	background: #fff;
-	font-family: 'Oxygen', sans-serif;
-	font-weight: 400;
+	//font-family: 'Oxygen', sans-serif;
+    font-family: 'Audiowide', cursive;
+	font-weight: 16;
 	color: #353b42;
 }
 
@@ -16,7 +17,8 @@ body {
 }
 
 header {
-	background: #f23f54;
+	background: #f23f54  url(../images/previo_portadaAnisakis_PV.jpg) no-repeat center center;
+    background-size: cover;
 	color: #fff;
 	height: 100px;
 }
@@ -68,7 +70,7 @@ header form input[type=button]:hover {
 
 #banner {
 	background: #f4f7f9;
-	height: 360px;
+	height: 260px;
 }
 
 #banner .introduction {
@@ -112,24 +114,6 @@ header form input[type=button]:hover {
 	font-size: 0.7em;
 }
 
-#banner .video {
-	float: right;
-	margin: 70px 0;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	background-color: #353b42;
-	-webkit-box-shadow: 0 1px 7px rgba(0,0,0,.4);
-	-moz-box-shadow: 0 1px 7px rgba(0,0,0,.4);
-	box-shadow: 0 1px 7px rgba(0,0,0,.4);
-	border: solid 3px #fff;
-	padding-bottom: -5px;
-}
-
-#banner .video img {
-	display: block;
-}
-
 #feature-section {
 	min-height: 500px;
 }
@@ -138,7 +122,7 @@ header form input[type=button]:hover {
 	color: #f23f54;
 	font-weight: 300;
 	font-size: 1.8em;
-	padding: 100px 0 10px 0;
+	padding: 30px 0 10px 0;
 }
 
 #feature-section p{
@@ -156,7 +140,7 @@ header form input[type=button]:hover {
 	float: right;
 	width: 381px;
 	position: relative;
-	height: 500px;
+	height: 300px;
 	overflow: hidden;
 }
 
@@ -250,10 +234,6 @@ footer .copyright strong {
 
 
 @media all and (max-width: 1024px){
-	#banner .video {
-		width: 200px;
-		margin-top: 120px;
-	}
 	#feature-section .description {
 		font-size: 80%;
 	}
@@ -280,12 +260,7 @@ footer .copyright strong {
 		display: none;
 	}
 	#banner {
-		height: 560px;
-	}
-	#banner .video {
-		width: 380px;
-		float: left;
-		margin-top: 40px;
+		height: 260px;
 	}
 	#feature-section .description, #feature-section.feature-right .description {
 		float: none;
@@ -296,7 +271,7 @@ footer .copyright strong {
 		width: 100%;
 	}
 	header h1 {
-		font-size: 1.6em;
+		font-size: 1.2em;
 	}
 	
 }
@@ -325,9 +300,6 @@ footer .copyright strong {
 	}
 	#banner a.download {
 		width: 220px;
-	}
-	#banner .video {
-		width: 300px;
 	}
 	#feature-section .image {
 		margin-top: -50px;
