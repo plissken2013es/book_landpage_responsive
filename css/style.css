@@ -6,6 +6,10 @@ body {
 	color: #353b42;
 }
 
+canvas {
+    cursor: none;
+}
+
 .wrapper {
 	width: 80%;
 	max-width: 960px;
@@ -20,7 +24,7 @@ header {
 	background: #f23f54  url(../images/previo_portadaAnisakis_PV.jpg) no-repeat center center;
     background-size: cover;
 	color: #fff;
-	height: 100px;
+	height: 120px;
 }
 
 header h1 {
@@ -141,7 +145,7 @@ header form input[type=button]:hover {
 	width: 381px;
 	position: relative;
 	height: 300px;
-	overflow: hidden;
+	//overflow: hidden;
 }
 
 #feature-section .image img {
@@ -149,9 +153,27 @@ header form input[type=button]:hover {
 	bottom: -140px;
 }
 
+#feature-section .background-image {
+    width: 100%;
+}
+
+#feature-section #tablet {
+    width: 100%;
+    height: 272px;
+    background: url(../images/tablet2.png) no-repeat;
+    overflow: visible;
+}
+
+#feature-section #canvas {
+    position: absolute;
+    float: left;
+    padding-left: 25px;
+    padding-top: 27px;
+}
+
 #feature-section .image img:hover {
 	position: absolute;
-	bottom: 0px;
+	bottom: -80px;
 }
 
 #feature-section .image img {
@@ -243,6 +265,9 @@ footer .copyright strong {
 		-o-transition: none;
 		transition: none;
 	}
+	#feature-section .image img:hover {
+        bottom: 0px;
+    }
 	#feature-section .image img {
 		bottom: 0px;
 		width: 381px;
