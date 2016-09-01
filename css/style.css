@@ -6,6 +6,11 @@ body {
 	color: #353b42;
 }
 
+a {
+    color: inherit; 
+    text-decoration: none;
+} 
+
 canvas {
     cursor: none;
 }
@@ -244,6 +249,8 @@ ul#social-links li a.twitter {background: url(../images/social-twitter.png) no-r
 ul#social-links li a.stumbleupon {background: url(../images/social-stumbleupon.png) no-repeat;}
 ul#social-links li a.google {background: url(../images/social-google.png) no-repeat;}
 ul#social-links li a.instagram {background: url(../images/social-instagram.png) no-repeat;}
+ul#social-links li a.itchio {background: url(../images/itchio_logo.png) no-repeat;}
+ul#social-links li a.gumroad {background: url(../images/gumroad_logo.png) no-repeat;}
 
 footer .copyright {
 	display: block;
