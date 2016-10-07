@@ -43,6 +43,11 @@
         c91: "In that case please download a free sample of the book, which contains an entire chapter of it. Additionally, you receive an extra free document that analyzes in depth the mechanics of the game. (Spanish only, sorry!)",
         c92: "Download sample + Bonus (Spanish)",
         c10: "Please let me know when it's available!",
+		c11: "About the author",
+		c111: "Hi, I'm LuisQuin, a.k.a. 'plissken2013es', a.k.a <a href='https://twitter.com/akidfromthe80s' target='_blank'>@aKidFromThe80s</a>. I develop software for a living and code videogames in my spare time. I wrote this book, too.",
+		c112: "My submission \"<a href='http://js13kgames.com/entries/glitch-torpedo' target='_blank'>Glitch Torpedo</a>\" ranked #4 in <a href='http://2016.js13kgames.com/#winners-server' target='_blank'>server</a> category at <b>js13kgames</b> Compo. It's an HTML5 multiplayer videogame in less than 13k.",
+		c113: "You may watch me writing \"<a href='https://youtu.be/Mf0oMKKpzr4' target='_blank'>Space Invaders</a>\" in VanillaJS in just 59 seconds, if you like.",
+		c114: "Or checkout my other mini-games and experiments at <a href='http://cargocollective.com/luisQuin/About-me-Sobre-mi' target='_blank'>CargoCollective</a>."
     };
     if (window.location.hash === "#en") {
         document.title = "Impact or Phaser - guide to create an 'indie'  videogame in 72 hours";
