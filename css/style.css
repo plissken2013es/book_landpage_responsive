@@ -145,6 +145,15 @@ header form input[type=button]:hover {
 	width: 50%;
 }
 
+#feature-section .description p a {
+    background-color: cadetblue;
+    color: white;
+}
+#feature-section .description p a:hover {
+    background-color: #f9495e;
+    color: black;
+}
+
 #feature-section .image {
 	float: right;
 	width: 381px;
