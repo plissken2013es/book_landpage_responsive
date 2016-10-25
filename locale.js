@@ -55,7 +55,7 @@
         document.title = "Impact or Phaser - guide to create an 'indie'  videogame in 72 hours";
         for (var prop in locale) {
             var el = document.getElementById(prop);
-            el.innerHTML = locale[prop];
+            if (el) el.innerHTML = locale[prop];
         }
     }
 })();
